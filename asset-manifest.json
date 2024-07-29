@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/RouterDom/static/css/main.7fe242ca.css",
+    "main.js": "/RouterDom/static/js/main.75ba288d.js",
+    "static/media/pexels-cottonbro-6626999.jpg": "/RouterDom/static/media/pexels-cottonbro-6626999.69fcce01d47a9d14cfe7.jpg",
+    "index.html": "/RouterDom/index.html",
+    "main.7fe242ca.css.map": "/RouterDom/static/css/main.7fe242ca.css.map",
+    "main.75ba288d.js.map": "/RouterDom/static/js/main.75ba288d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fe242ca.css",
+    "static/js/main.75ba288d.js"
+  ]
+}
