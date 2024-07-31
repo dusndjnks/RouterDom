@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ins from "../images/ins.logo.png"
+import lin from "../images/link.logo.png"
+import git from "../images/git.logo.png"
 
 const Footer = () => {
   return (
@@ -14,17 +17,17 @@ const Footer = () => {
 		</div>
 		<ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
 			<li className='flex items-center'>
-				<img src="views/ins.logo.png" alt=""  className='w-7' />
+				<img src={ins} alt=""  className='w-7' />
 				<a rel="noopener noreferrer" href="https://www.instagram.com/_a_ffan_?igsh=MWM0dm81bXNncWhobA==" className=' text-lg font-semibold'>Instagram</a>
 			</li>
 
 			<li className='flex items-center'>
-				<img src="views/link.logo.png" alt=""  className='w-8'/>
+				<img src={lin} alt=""  className='w-8'/>
 				<a rel="noopener noreferrer" href="https://www.linkedin.com/in/muhammed-affan-87456724b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className=' text-lg font-semibold'>LinkedIn</a>
 			</li>
 
 			<li className='flex items-center'>
-			<img src="views/git.logo.png" alt=""  className='w-11' />
+			<img src={git} alt=""  className='w-11' />
 				<a rel="noopener noreferrer" href="https://github.com/dusndjnks" className=' text-lg font-semibold'>GitHub</a>
 			</li>
 		</ul>

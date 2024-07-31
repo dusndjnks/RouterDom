@@ -1,6 +1,13 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import { Link } from 'react-router-dom'
+import img1 from "../images/bg.png"
+import hoodie from "../images/hoodie.jpg"
+import jack from "../images/jacket.jpg"
+import jeans from "../images/jeans.jpg"
+import shoes from "../images/shoe.jpg"
+import suit from "../images/suit1.jpg"
+
 
 const Home = () => {
   return (
@@ -9,15 +16,9 @@ const Home = () => {
 <div className=''>
 <hr className="border-t-4 " />
 </div>
-
-<div className='relative bg-image  h-screen bg-cover  bg-top bg-scroll z-[-1]'>
-	<div className='absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center '>
-		<div className='flex flex-col items-center justify-center gap-4'>
-		<h1 className='text-white lg:text-7xl  text-4xl font-bold text-center font-serif'>Welcome to Our Store</h1>
-		</div>
+	<div>
+		<img src={img1} alt="" className='w-auto' />
 	</div>
-</div>
-
 <hr className="border-t-4 " />
 
 <div className='bg-lime flex justify-end py-10 px-40 hidden lg:flex'>
@@ -30,7 +31,7 @@ const Home = () => {
           <h2 className='text-center w-auto px-'>"Our dress store offers timeless elegance and modern refinement for the discerning gentleman."</h2>
         </div>
         <div>
-        <img src="views/suit1.jpg" alt="" className=' rounded-lg hidden lg:flex w-auto'/>
+        <img src={suit} alt="" className=' rounded-lg hidden lg:flex w-auto'/>
         </div>
       </div>
 
@@ -47,25 +48,25 @@ const Home = () => {
 		</div>  
 		<div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
 			<article className="flex flex-col dark:bg-gray-50">
-			<img src="views/hoodie.jpg" alt="" />
+			<img src={hoodie} alt="" />
 				<div className="flex flex-col flex-1 p-6">
 					<Link to="/product" className="flex-1 py-2 text-2xl font-semibold leading-snug hover:underline">Hoodies,T-Shirts</Link>
 				</div>
 			</article>
 			<article className="flex flex-col dark:bg-gray-50">
-			<img src="views/jacket.jpg" alt="" />
+			<img src={jack} alt="" />
 				<div className="flex flex-col flex-1 p-6">
 					<Link to="/product" className="flex-1 py-2 text-2xl font-semibold leading-snug hover:underline">Jackets,Shirts</Link>	
 				</div>
 			</article>
 			<article className="flex flex-col dark:bg-gray-50">
-			<img src="views/jeans.jpg" alt="" />
+			<img src={jeans} alt="" />
 				<div className="flex flex-col flex-1 p-6">
 					<Link to="/product" className="flex-1 py-2 text-2xl font-semibold leading-snug hover:underline">Jeans,Pants</Link>
 				</div>
 			</article>
 			<article className="flex flex-col dark:bg-gray-50">
-				<img src="views/shoe.jpg" alt="" />
+				<img src={shoes} alt="" />
 				<div className="flex flex-col flex-1 p-6">
 					<Link to="/product" className="flex-1 py-2 text-2xl font-semibold leading-snug hover:underline">Sneakers,Loafers</Link>	
 				</div>

@@ -1,6 +1,8 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import { Link } from 'react-router-dom'
+import pol from "../images/polo (5).jpeg"
+import jacket from "../images/jacket(5).jpeg"
 
 
 const Cart = () => {
@@ -14,7 +16,7 @@ const Cart = () => {
 <ul className="flex flex-col divide-y dark:divide-gray-300">
     <li className="flex flex-col py-6 sm:flex-row sm:justify-between">
         <div className="flex w-full space-x-2 sm:space-x-4">
-            <img className="flex-shrink-0 object-cover w-20 h-20 dark:border- rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src="pr/jacket(1).jpeg" alt=''/>
+            <img className="flex-shrink-0 object-cover w-20 h-20 dark:border- rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src={jacket} alt=''/>
             <div className="flex flex-col justify-between w-full pb-4">
                 <div className="flex justify-between w-full pb-2 space-x-2">
                     <div className="space-y-1">
@@ -48,7 +50,7 @@ const Cart = () => {
     </li>
     <li className="flex flex-col py-6 sm:flex-row sm:justify-between">
         <div className="flex w-full space-x-2 sm:space-x-4">
-            <img alt='' className="flex-shrink-0 object-cover w-20 h-20 dark:border- rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src="pr/polo (5).jpeg" />
+            <img alt='' className="flex-shrink-0 object-cover w-20 h-20 dark:border- rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500" src={pol} />
             <div className="flex flex-col justify-between w-full pb-4">
                 <div className="flex justify-between w-full pb-2 space-x-2">
                     <div className="space-y-1">

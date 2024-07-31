@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import { useState } from 'react'
-
+import { useState } from 'react';
+import image from "../images/img1.png"
 
 const Navbar = () => {
 
@@ -14,7 +14,7 @@ const Navbar = () => {
           <div className="w-full  bg-gradient ">
 	<div className={`flex justify-between  mx-auto lg:px-7 pr-2 relative duration-100 ${extendNavbar ? "h-72 items-start" : "h-24 items-center"}`} >
 		<div className='flex items-center'>
-		<img src="views\logo.png" alt="" className='lg:w-24 w-20 '/>
+		<img src={image} alt="" className='lg:w-24 w-20 '/>
 			<Link  to="/" className='font-semibold lg:text-3xl text-2xl  font-serif'>Legacy Elegance</Link>
 		</div>
 
