@@ -27,7 +27,7 @@ const Home = () => {
 
       <div className='h-auto w-scree flex justify-between bg-lime items-center'>
         <div className=' py-10 sm:px-3 lg:px-14'>
-          <h1 className='text-6xl font-serif text-center  '>OLD  MONEY EMPORIUM</h1>
+          <h1 className='lg:text-6xl  text-3xl font-serif text-center  '>OLD  MONEY EMPORIUM</h1>
           <h2 className='text-center w-auto px-'>"Our dress store offers timeless elegance and modern refinement for the discerning gentleman."</h2>
         </div>
         <div>
