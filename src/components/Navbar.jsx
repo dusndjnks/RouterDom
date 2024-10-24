@@ -51,13 +51,13 @@ const Navbar = () => {
 
 
 <div className='w-full bg-gradient duration-700 '>
-        <nav className={`flex justify-between md:h-24  lg:px-7 sm:pt-4 pt-1 pr-2 relative duration-500 ${extendNavbar ? "h-80 items-start" : "h-24 items-center"}`}>
+        <nav className={`flex justify-between md:h-24  lg:px-7 sm:pt-4  pr-2 relative duration-500 ${extendNavbar ? "h-80 items-start" : "h-24 items-center"}`}>
             <div className='flex items-center justify-center gap-3'>
 			<img src={image} alt="" className='lg:w-24 w-20 '/>
             <Link  to="/" className='font-semibold lg:text-3xl md:text-2xl text-lg  font-serif'>Legacy Elegance</Link>
             </div>
         <div>
-            <ul className={`lg:gap-6 flex text-2xl font-semibold lg:static flex flex-col lg:flex-row absolute items-center gap-2 text-xl duration-500   px-3 pt-4    ${extendNavbar ? "top-20 left-6" : " left-[-200px]"}`}>
+            <ul className={`lg:gap-6 flex text-2xl font-semibold lg:static flex flex-col lg:flex-row absolute items-center gap-2 text-xl duration-500   px-3     ${extendNavbar ? "top-20 left-6" : " left-[-200px]"}`}>
 			<Link to="/" className='flex cursor-pointer lg:text-xl text-lg hover:text-green-500 font-semibold'>
 				Home
 			</Link>

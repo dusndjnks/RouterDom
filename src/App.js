@@ -22,7 +22,7 @@ function App(){
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/help' element={<Help/>}/>
         <Route path='/privacy' element={<Privacy/>}/>
-        <Route path='/*' element={<PageNotFound/>}/>
+        <Route path='*' element={<PageNotFound/>}/>
       </Routes>
     </div>
   )
