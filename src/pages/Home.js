@@ -7,7 +7,7 @@ import jack from "../images/jacket.jpg"
 import jeans from "../images/jeans.jpg"
 import shoes from "../images/shoe.jpg"
 import suit from "../images/suit1.jpg"
-
+  
 
 const Home = () => {
   return (

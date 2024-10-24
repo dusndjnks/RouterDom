@@ -24,7 +24,7 @@ const Navbar = () => {
 				Home
 			</Link>
 			<Link to="/product" className="flex cursor-pointer lg:text-xl text-lg hover:text-green-500 font-semibold">
-				Product
+	  			Product
 			</Link>
 			<Link to="/cart" className="flex cursor-pointer lg:text-xl text-lg hover:text-green-500 font-semibold">
 				Cart
