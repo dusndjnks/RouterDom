@@ -24,11 +24,6 @@ module.exports = {
       'black' : "#000000",
       'green' : '#37B7C3',
     },
-    extend: {
-      backgroundImage:{
-        'image': "url('file:///C:/Users/Affan/Downloads/pr/pexels-cottonbro-6626999.jpg')"
-      }
-    },
   },
   plugins: [],
 }
