@@ -1,6 +1,5 @@
 {
   "name": "routerdom",
-  "homepage": "https://dusndjnks.github.io/RouterDom",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
